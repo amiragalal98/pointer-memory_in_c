@@ -1,10 +1,9 @@
 #include<stdio.h>
 
 int main() {
-  // Checkpoint 1 code goes here.
-double dblVar;
-double* dblPtr = &dblVar;
-  // Print the address stored in dblPtr
-printf("%p", dblPtr);
+  int x = 727; // Declare variable x
+int* ptr = &x; // Declare a pointer to an int variable and assign to it the address of variable x
+printf("%p\n", &x); // Print the address of x
+printf("%p\n", ptr); // Print the address pointed to by ptr 
   
 }
