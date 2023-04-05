@@ -16,9 +16,9 @@ dataType* nameOfPointer;
   *pointerName</li>
   <li>Pointer arithmetic is allowed but only for addition and subtraction by an integer.</li>
   <li>It is not possible to add/subtract one pointer to/from another pointer.</li>
-<li>Incrementing or decrementing a pointer is done in the following way:
-pointer += someInteger;
-pointer -= someInteger;<li>
+  <li>Incrementing or decrementing a pointer is done in the following way:</li>
+pointer += someInteger;<br>
+pointer -= someInteger;<br>
 <li>Incrementing/decrementing a pointer changes the address by n times the size of the data type the pointer is pointing to.</li>
 <li>Because an array is stored as a contiguous block of memory, a pointer can be used to traverse it.</li>
 <li>Great care must be exercised when using a pointer as it is possible to accidentally corrupt data stored in other memory addresses.</li>
