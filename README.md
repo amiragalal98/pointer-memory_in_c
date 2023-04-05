@@ -7,9 +7,9 @@
 <li>A pointer is a special type of integer variable that stores the memory address of a regular variable.</li>
   <li>A pointer can store the address of any type of variable, including other pointers.</li>
 <li>The address stored in a pointer is the address of the first byte of memory that stores a variable.</li>
-<li>A pointer can be declared in two ways:
-dataType* nameOfPointer;
-  dataType *nameOfPointer;</li>
+  <li>A pointer can be declared in two ways:</li>
+dataType* nameOfPointer;<br>
+  dataType *nameOfPointer;<br>
 <li>To obtain the address of a variable such that it may be assigned to a pointer, the reference operator (&) is used. Syntax:
   &variableName;</li>
 <li>Accessing data that is stored in a memory address pointed to by a pointer is done using the dereference operator (*). Syntax:
