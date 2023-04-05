@@ -12,7 +12,8 @@ dataType* nameOfPointer;<br>
   dataType *nameOfPointer;<br>
 <li>To obtain the address of a variable such that it may be assigned to a pointer, the reference operator (&) is used. Syntax:
   &variableName;</li>
-<li>Accessing data that is stored in a memory address pointed to by a pointer is done using the dereference operator (*). Syntax:
+<li>Accessing data that is stored in a memory address pointed to by a pointer is done using the dereference operator (*).
+  Syntax:
   *pointerName</li>
   <li>Pointer arithmetic is allowed but only for addition and subtraction by an integer.</li>
   <li>It is not possible to add/subtract one pointer to/from another pointer.</li>
