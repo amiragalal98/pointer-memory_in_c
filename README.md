@@ -10,8 +10,9 @@
   <li>A pointer can be declared in two ways:</li>
 dataType* nameOfPointer;<br>
   dataType *nameOfPointer;<br>
-<li>To obtain the address of a variable such that it may be assigned to a pointer, the reference operator (&) is used. Syntax:
-  &variableName;</li>
+<li>To obtain the address of a variable such that it may be assigned to a pointer, the reference operator (&) is used.</li>
+  Syntax:<br>
+  &variableName;<br>
 <li>Accessing data that is stored in a memory address pointed to by a pointer is done using the dereference operator (*).
   Syntax:
   *pointerName</li>
