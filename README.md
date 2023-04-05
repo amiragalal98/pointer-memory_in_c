@@ -1,6 +1,6 @@
 # pointer-memory_in_c
-
-The base unit of memory is a byte.
+<ul>
+  <pr>The base unit of memory is a byte.</pr>
 Memory is represented as a block of bytes.
 These bytes have an associated address which is represented by a hexadecimal number.
 When a program is running, it is the responsibility of the underlying operating system to reserve a block of RAM for the program.
@@ -22,3 +22,4 @@ pointer -= someInteger;
 Incrementing/decrementing a pointer changes the address by n times the size of the data type the pointer is pointing to.
 Because an array is stored as a contiguous block of memory, a pointer can be used to traverse it.
 Great care must be exercised when using a pointer as it is possible to accidentally corrupt data stored in other memory addresses.
+</ul>
